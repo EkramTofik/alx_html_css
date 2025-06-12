@@ -1,0 +1,24 @@
+body {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid black;
+  width: 500px;
+}
+main {
+  display: flex;
+  flex-direction: row;
+  flex: auto;
+  width: 500px;
+  height: 400px;
+  border: 1px solid black;
+}
+article {
+  overflow-y: auto;
+  flex: 2;
+  border-right: 1px solid black;
+}
+aside {
+  overflow-y: auto;
+  flex: 1;
+  border-left: 1px solid black;
+}
